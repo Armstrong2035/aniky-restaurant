@@ -27,8 +27,7 @@ export default function Component({ image }) {
             src={image}
             alt={"abula"}
             layout="fill"
-            objectFit="cover"
-            style={{ borderRadius: "25px" }}
+            style={{ borderRadius: "25px", objectFit: "cover" }}
           />
         </Box>
       </CardContent>

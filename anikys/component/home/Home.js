@@ -1,9 +1,9 @@
 "use client";
 
 import { Container, Grid2 } from "@mui/material";
-import HeroText from "./HeroText";
-import HeroImageCard from "./HeroImageCard";
-import HeroCTA from "./HeroCTA";
+import HeroText from "./hero/HeroText";
+import HeroImageCard from "./hero/HeroImageCard";
+import HeroCTA from "./hero/HeroCTA";
 
 export default function Home({ heroContent }) {
   return (

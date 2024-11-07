@@ -1,5 +1,5 @@
 import { Container, Typography, Box } from "@mui/material";
-import { textStyles } from "../../utils/styles";
+import { textStyles } from "../../../utils/styles";
 
 export default function HeroText({ headerText, bodyText }) {
   return (
